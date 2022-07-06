@@ -13,7 +13,7 @@ public class ReverseLinkList {
 
         Node<Integer> head = revereSingerLinkList(node1);
         for(Node<Integer> cur = head; cur !=null; cur=cur.next){
-            System.out.println(cur.data);
+            System.out.print(cur.data+" ");
         }
     }
 
